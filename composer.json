@@ -1,0 +1,28 @@
+{
+  "name": "chinawilon/hyperf-groupcache",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "wilon",
+      "email": "5wilon@sina.com"
+    }
+  ],
+  "require": {
+    "hyperf/command": "~2.1.0"
+  },
+  "require-dev": {
+    "swoole/ide-helper": "^4.5"
+  },
+  "extra": {
+    "hyperf": {
+      "config": "GroupCache\\ConfigProvider"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "GroupCache\\": "src/"
+    }
+  }
+}
